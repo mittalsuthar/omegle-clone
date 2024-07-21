@@ -1,7 +1,6 @@
 {
   "name": "videoapp",
   "version": "0.1.0",
-  "homepage": "http://mittalsuthar.github.io/RandomCall",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -11,6 +10,7 @@
     "agora-rtc-sdk-ng": "^4.21.0",
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "firebase": "^10.12.4",
     "peerjs": "^1.5.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -22,9 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start-server": "node server.js",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "start-server": "node server.js"
   },
   "eslintConfig": {
     "extends": [
